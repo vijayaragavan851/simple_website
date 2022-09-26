@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<body style="background-image:url('mountain.jfif');background-repeat: no-repeat;background-size: cover;">
+ <h3>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <font color="black" size="6">Technical World</font>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;
+    <a href="index.html"><font color="White">HOME</font></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="contact.html"><font color="White">CONTACT</font></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="course.html"><font color="White">COURSE</font></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#"><font color="White">REGISTRATION</font></a>
+ </h3>   
+ <br>
+    <h1 align="center">REGISTATION FORM</h1>
+    <table  width="460" height="360" align="center" bgcolor="#fad2e2">
+        <form>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name" size="40"></td>
+            </tr>
+
+            <tr>
+                <td><label for="psw">password:</label></td>
+                <td><input type="password" id="psw" name="psw" placeholder="Enter your password" size="40"></td>
+            </tr>
+
+            <tr>
+                <td><label for="mail">Email:</label></td>
+                <td><input type="email" id="mail" name="email" placeholder="Enter your Email id" size="40"></td>
+            </tr>
+            
+            <tr>
+                <td>Geneder:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label>
+                    <input type="radio" id="female"  name="gender" value="Female"><label for="female"><label>Female</label>
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td>Hobbies:</td>
+                <td><input type="checkbox" id="read" name="Hobbies[]" value="Reading"><label for="read">Reading</label>
+                    <input type="checkbox" id="write" name="Hobbies[]" value="writing"><label for="write">writing</label>
+                    <input type="checkbox" id="listen" name="Hobbies[]" value="Listing"><label for="listen">listening</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country:</label></td>
+                <td>
+                    <select name="county" id="county">
+                        <option value="India">India</option>
+                        <option value="Pakishthan">Pakishthan</option>
+                        <option value="China">China</option>
+                        <option value="America">America</option>
+                        <option value="London">London</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone No:</label></td>
+                <td><input type="tel" name="phone_no" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"placeholder="123-456-7890"></td>
+            </tr>
+            <tr>
+                <td align="right" colspan="2">
+                    <input type="submit">
+                    <input type="reset">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
